@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+h1 {
+    /*text-align: center;*/
+    display: table;
+    margin: 100px auto 0px auto;
+    padding: 5px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+}
+.cas{
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+}
+.hyper {
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+}
+#value{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+/*h1 span {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    margin-top: 60px;
+}*/
