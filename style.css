@@ -17,18 +17,34 @@ h1 {
 }
 .cas{
     color: orange;
-    text-align: center;
+    
     margin-top: 20px;
+    margin-left: 10px;
 }
 .hyper {
     color: orange;
-    text-align: center;
+    
     margin-top: 20px;
+}
+.table{
+    margin-left: 560px;
+    margin-top: 20px;
+    width: 20%;
 }
 #value{
-    margin-left: 600px;
-    margin-top: 20px;
+    margin-left: 570px;
+    margin-top: 0;
+    border-color: green;
+    width: 15%;
 }
+
+#add{
+    border-color: green;
+    color: green;
+    background-color: white;
+    
+}
+
 /*h1 span {
     background-color: green;
     color: white;

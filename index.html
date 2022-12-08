@@ -5,19 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+   
 
     <script defer src="./main.js"></script>
 </head>
 <body>
     <h1>MY DEVELOPER SKILLS</h1>
-    <div class="cas">Cascadian Style Sheet(CSS) </div>
-    <div class="hyper">Hypertext Markup Language(HTML)</div>
+    <!--<div class="cas">Cascadian Style Sheet(CSS) </div>
+    <div class="hyper">Hypertext Markup Language(HTML)</div>-->
+    
+    <table id="htcss" class="table">
+    <tr>
+        <td><button class="btn btn-xs btn-danger">X</button></td>
+        <td class="cas">Cascadian Style Sheet(CSS)</td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-xs btn-danger">X</button></td>
+        <td class="hyper">Hypertext Markup Language(HTML)</td>
+        </tr>
+        </table>
+    
+    
     <input type="text" id="value">
-    <button type="button">ADD SKILL</button>
+    <button type="button" id="add"  >ADD SKILL</button>
 
     
 </body>
